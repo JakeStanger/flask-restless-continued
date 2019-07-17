@@ -833,7 +833,7 @@ class APIManager(object):
         # which responds only to GET requests and responds with the result of
         # evaluating functions on all instances of the specified model
         if allow_functions:
-            eval_api_name = '{0}.eval'.format(apiname)
+            eval_api_name = '{0}_eval'.format(apiname)
             eval_api_view = FunctionAPI.as_view(eval_api_name, self.session,
                                                 model)
             eval_endpoint = '/eval{0}'.format(collection_url)
