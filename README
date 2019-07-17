@@ -17,7 +17,7 @@ For more information, see the
   * [Python Package Index listing][6],
   * [source code repository][7].
 
-[![Build status](https://secure.travis-ci.org/jfinkels/flask-restless.png)](https://travis-ci.org/jfinkels/flask-restless)
+[![Build Status](https://travis-ci.com/JakeStanger/flask-restless-continued.svg?branch=master)](https://travis-ci.com/JakeStanger/flask-restless-continued)
 
 [1]: http://flask.pocoo.org
 [2]: https://jsonapi.org
