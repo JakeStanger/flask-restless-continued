@@ -393,7 +393,8 @@ def is_like_list(model_or_instance, relationname):
     relation = mapper.all_orm_descriptors[relationname]
     if isinstance(relation, AssociationProxy):
         relation = relation.local_attr
-    return relation.property.uselist
+
+    return hasattr(relation.property, 'uselist') and relation.property.uselist
 
 
 def is_mapped_class(cls):
