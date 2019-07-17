@@ -1,4 +1,10 @@
-# Flask-Restless #
+# Flask-Restless-Continued #
+
+This is a continuation of [Flask-Restless][8], which has seemingly been abandoned. 
+It is built from the v1.0.0 development version, 
+and currently just includes a few fixes to get the package working with Flask >= 1.0.
+
+All issues/PRs are very welcome, as are maintainers.
 
 ## Introduction ##
 
@@ -25,7 +31,8 @@ For more information, see the
 [4]: https://packages.python.org/Flask-SQLAlchemy
 [5]: https://flask-restless.readthedocs.org
 [6]: https://pypi.python.org/pypi/Flask-Restless
-[7]: https://github.com/jfinkels/flask-restless
+[7]: https://github.com/JakeStanger/flask-restless-continued
+[8]: https://github.com/jfinkels/flask-restless
 
 ## Copyright license ##
 
