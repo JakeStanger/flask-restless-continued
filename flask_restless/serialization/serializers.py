@@ -512,6 +512,10 @@ class DefaultSerializer(Serializer):
         resources = []
         failed = []
         for instance in instances:
+            if type(instance) in (str, int, float, bool):
+                resources.append(instance)
+                continue
+
             # Determine the serializer for this instance.
             model = get_model(instance)
             try:
