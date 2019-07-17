@@ -70,8 +70,8 @@ def find_version(*file_path):
 
 
 setup(
-    author='Jeffrey Finkelstein',
-    author_email='jeffrey.finkelstein@gmail.com',
+    author='Jeffrey Finkelstein (maintained by Jake Stanger)',
+    author_email='mail@jstanger.dev',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
@@ -82,30 +82,30 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Topic :: Database :: Front-Ends',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
     description=('Flask extension for generating a JSON API interface for'
                  ' SQLAlchemy models'),
-    download_url='https://pypi.python.org/pypi/Flask-Restless',
+    download_url='https://pypi.python.org/pypi/Flask-Restless-Continued',
     install_requires=REQUIREMENTS,
     include_package_data=True,
     keywords=['ReST', 'API', 'Flask'],
     license='GNU AGPLv3+ or BSD',
     long_description=__doc__,
-    name='Flask-Restless',
+    name='Flask-Restless-Continued',
     platforms='any',
     packages=find_packages(exclude=['tests', 'tests.*']),
     test_suite='tests',
     tests_require=['unittest2'],
-    url='https://github.com/jfinkels/flask-restless',
+    url='https://github.com/JakeStanger/flask-restless-continued',
     version=find_version('flask_restless', '__init__.py'),
     zip_safe=False
 )
